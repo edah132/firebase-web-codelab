@@ -54,3 +54,6 @@ const uiConfig = {
 };
 
 // const ui = new firebaseui.auth.AuthUI(firebase.auth());
+
+// Initialize the FirebaseUI widget using Firebase
+const ui = new firebaseui.auth.AuthUI(firebase.auth());
